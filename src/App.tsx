@@ -47,8 +47,8 @@ const App = () => (
                 <div className="min-h-screen bg-background text-foreground transition-colors w-full">
                   <Routes>
                     {/* Admin Routes - No Navbar/Footer */}
-                    <Route path="/route-aura-booking-admin-page" element={<AdminLoginPage />} />
-                    <Route path="/route-aura-booking-admin-page/dashboard/*" element={
+                    <Route path="/safiri-kenya-booking-admin-page" element={<AdminLoginPage />} />
+                    <Route path="/safiri-kenya-booking-admin-page/dashboard/*" element={
                       <AdminProtectedRoute>
                         <AdminDashboard />
                       </AdminProtectedRoute>
