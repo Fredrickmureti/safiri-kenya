@@ -20,7 +20,7 @@ const AdminProtectedRoute: React.FC<AdminProtectedRouteProps> = ({ children }) =
   }
 
   if (!adminUser) {
-    return <Navigate to="/route-aura-booking-admin-page" replace />;
+    return <Navigate to="/safiri-kenya-booking-page" replace />;
   }
 
   return <>{children}</>;

@@ -40,7 +40,7 @@ const AdminDashboard = () => {
 
   const handleLogout = async () => {
     await logoutAdmin();
-    navigate('/route-aura-booking-admin-page');
+    navigate('/safiri-kenya-booking-admin-page');
   };
 
   const toggleSidebar = () => {
@@ -101,7 +101,7 @@ const AdminDashboard = () => {
               variant="ghost"
               className="w-full justify-start text-white px-4 hover:bg-white/10 transition-all duration-200"
               onClick={() => {
-                navigate('/route-aura-booking-admin-page/dashboard');
+                navigate('/safiri-kenya-booking-page/dashboard');
                 toggleMobileMenu();
               }}
             >
@@ -112,7 +112,7 @@ const AdminDashboard = () => {
               variant="ghost"
               className="w-full justify-start text-white px-4 hover:bg-white/10 transition-all duration-200"
               onClick={() => {
-                navigate('/route-aura-booking-admin-page/dashboard/bookings');
+                navigate('/safiri-kenya-booking-page/dashboard/bookings');
                 toggleMobileMenu();
               }}
             >
@@ -123,7 +123,7 @@ const AdminDashboard = () => {
               variant="ghost"
               className="w-full justify-start text-white px-4 hover:bg-white/10 transition-all duration-200"
               onClick={() => {
-                navigate('/route-aura-booking-admin-page/dashboard/users');
+                navigate('/safiri-kenya-booking-page/dashboard/users');
                 toggleMobileMenu();
               }}
             >
@@ -134,7 +134,7 @@ const AdminDashboard = () => {
               variant="ghost"
               className="w-full justify-start text-white px-4 hover:bg-white/10 transition-all duration-200"
               onClick={() => {
-                navigate('/route-aura-booking-admin-page/dashboard/drivers');
+                navigate('/safiri-kenya-booking-page/dashboard/drivers');
                 toggleMobileMenu();
               }}
             >
@@ -145,7 +145,7 @@ const AdminDashboard = () => {
               variant="ghost"
               className="w-full justify-start text-white px-4 hover:bg-white/10 transition-all duration-200"
               onClick={() => {
-                navigate('/route-aura-booking-admin-page/dashboard/routes');
+                navigate('/safiri-kenya-booking-page/dashboard/routes');
                 toggleMobileMenu();
               }}
             >
@@ -156,7 +156,7 @@ const AdminDashboard = () => {
               variant="ghost"
               className="w-full justify-start text-white px-4 hover:bg-white/10 transition-all duration-200"
               onClick={() => {
-                navigate('/route-aura-booking-admin-page/dashboard/fleet');
+                navigate('/safiri-kenya-booking-page/dashboard/fleet');
                 toggleMobileMenu();
               }}
             >
@@ -167,7 +167,7 @@ const AdminDashboard = () => {
               variant="ghost"
               className="w-full justify-start text-white px-4 hover:bg-white/10 transition-all duration-200"
               onClick={() => {
-                navigate('/route-aura-booking-admin-page/dashboard/locations');
+                navigate('/safiri-kenya-booking-page/dashboard/locations');
                 toggleMobileMenu();
               }}
             >
@@ -178,7 +178,7 @@ const AdminDashboard = () => {
               variant="ghost"
               className="w-full justify-start text-white px-4 hover:bg-white/10 transition-all duration-200"
               onClick={() => {
-                navigate('/route-aura-booking-admin-page/dashboard/reviews');
+                navigate('/safiri-kenya-booking-page/dashboard/reviews');
                 toggleMobileMenu();
               }}
             >
@@ -189,7 +189,7 @@ const AdminDashboard = () => {
               variant="ghost"
               className="w-full justify-start text-white px-4 hover:bg-white/10 transition-all duration-200"
               onClick={() => {
-                navigate('/route-aura-booking-admin-page/dashboard/inbox');
+                navigate('/safiri-kenya-booking-page/dashboard/inbox');
                 toggleMobileMenu();
               }}
             >
@@ -200,7 +200,7 @@ const AdminDashboard = () => {
               variant="ghost"
               className="w-full justify-start text-white px-4 hover:bg-white/10 transition-all duration-200"
               onClick={() => {
-                navigate('/route-aura-booking-admin-page/dashboard/offices');
+                navigate('/safiri-kenya-booking-page/dashboard/offices');
                 toggleMobileMenu();
               }}
             >
@@ -211,7 +211,7 @@ const AdminDashboard = () => {
               variant="ghost"
               className="w-full justify-start text-white px-4 hover:bg-white/10 transition-all duration-200"
               onClick={() => {
-                navigate('/route-aura-booking-admin-page/dashboard/faqs');
+                navigate('/safiri-kenya-booking-page/dashboard/faqs');
                 toggleMobileMenu();
               }}
             >
@@ -283,7 +283,7 @@ const AdminDashboard = () => {
             <Button
               variant="ghost"
               className={`w-full ${sidebarCollapsed ? 'justify-center px-0' : 'justify-start'} hover:bg-gradient-to-r hover:from-blue-50 hover:to-indigo-50 hover:text-blue-700 transition-all duration-300 group`}
-              onClick={() => navigate('/route-aura-booking-admin-page/dashboard')}
+              onClick={() => navigate('/safiri-kenya-booking-page/dashboard')}
             >
               <Activity className={`h-4 w-4 ${!sidebarCollapsed && 'mr-3'} group-hover:scale-110 transition-transform duration-200`} />
               {!sidebarCollapsed && <span className="font-medium">Overview</span>}
@@ -291,7 +291,7 @@ const AdminDashboard = () => {
             <Button
               variant="ghost"
               className={`w-full ${sidebarCollapsed ? 'justify-center px-0' : 'justify-start'} hover:bg-gradient-to-r hover:from-green-50 hover:to-emerald-50 hover:text-green-700 transition-all duration-300 group`}
-              onClick={() => navigate('/route-aura-booking-admin-page/dashboard/bookings')}
+              onClick={() => navigate('/safiri-kenya-booking-page/dashboard/bookings')}
             >
               <CalendarDays className={`h-4 w-4 ${!sidebarCollapsed && 'mr-3'} group-hover:scale-110 transition-transform duration-200`} />
               {!sidebarCollapsed && <span className="font-medium">Bookings</span>}
@@ -299,7 +299,7 @@ const AdminDashboard = () => {
             <Button
               variant="ghost"
               className={`w-full ${sidebarCollapsed ? 'justify-center px-0' : 'justify-start'} hover:bg-gradient-to-r hover:from-purple-50 hover:to-violet-50 hover:text-purple-700 transition-all duration-300 group`}
-              onClick={() => navigate('/route-aura-booking-admin-page/dashboard/users')}
+              onClick={() => navigate('/safiri-kenya-booking-page/dashboard/users')}
             >
               <Users className={`h-4 w-4 ${!sidebarCollapsed && 'mr-3'} group-hover:scale-110 transition-transform duration-200`} />
               {!sidebarCollapsed && <span className="font-medium">Users</span>}
@@ -307,7 +307,7 @@ const AdminDashboard = () => {
             <Button
               variant="ghost"
               className={`w-full ${sidebarCollapsed ? 'justify-center px-0' : 'justify-start'} hover:bg-gradient-to-r hover:from-orange-50 hover:to-amber-50 hover:text-orange-700 transition-all duration-300 group`}
-              onClick={() => navigate('/route-aura-booking-admin-page/dashboard/drivers')}
+              onClick={() => navigate('/safiri-kenya-booking-page/dashboard/drivers')}
             >
               <UserCheck className={`h-4 w-4 ${!sidebarCollapsed && 'mr-3'} group-hover:scale-110 transition-transform duration-200`} />
               {!sidebarCollapsed && <span className="font-medium">Drivers</span>}
@@ -315,7 +315,7 @@ const AdminDashboard = () => {
             <Button
               variant="ghost"
               className={`w-full ${sidebarCollapsed ? 'justify-center px-0' : 'justify-start'} hover:bg-gradient-to-r hover:from-cyan-50 hover:to-sky-50 hover:text-cyan-700 transition-all duration-300 group`}
-              onClick={() => navigate('/route-aura-booking-admin-page/dashboard/routes')}
+              onClick={() => navigate('/safiri-kenya-booking-page/dashboard/routes')}
             >
               <LayoutList className={`h-4 w-4 ${!sidebarCollapsed && 'mr-3'} group-hover:scale-110 transition-transform duration-200`} />
               {!sidebarCollapsed && <span className="font-medium">Routes</span>}
@@ -323,7 +323,7 @@ const AdminDashboard = () => {
             <Button
               variant="ghost"
               className={`w-full ${sidebarCollapsed ? 'justify-center px-0' : 'justify-start'} hover:bg-gradient-to-r hover:from-red-50 hover:to-rose-50 hover:text-red-700 transition-all duration-300 group`}
-              onClick={() => navigate('/route-aura-booking-admin-page/dashboard/fleet')}
+              onClick={() => navigate('/safiri-kenya-booking-page/dashboard/fleet')}
             >
               <Car className={`h-4 w-4 ${!sidebarCollapsed && 'mr-3'} group-hover:scale-110 transition-transform duration-200`} />
               {!sidebarCollapsed && <span className="font-medium">Fleet</span>}
@@ -331,7 +331,7 @@ const AdminDashboard = () => {
             <Button
               variant="ghost"
               className={`w-full ${sidebarCollapsed ? 'justify-center px-0' : 'justify-start'} hover:bg-gradient-to-r hover:from-teal-50 hover:to-emerald-50 hover:text-teal-700 transition-all duration-300 group`}
-              onClick={() => navigate('/route-aura-booking-admin-page/dashboard/locations')}
+              onClick={() => navigate('/safiri-kenya-booking-page/dashboard/locations')}
             >
               <MapPin className={`h-4 w-4 ${!sidebarCollapsed && 'mr-3'} group-hover:scale-110 transition-transform duration-200`} />
               {!sidebarCollapsed && <span className="font-medium">Locations</span>}
@@ -339,7 +339,7 @@ const AdminDashboard = () => {
             <Button
               variant="ghost"
               className={`w-full ${sidebarCollapsed ? 'justify-center px-0' : 'justify-start'} hover:bg-gradient-to-r hover:from-pink-50 hover:to-rose-50 hover:text-pink-700 transition-all duration-300 group`}
-              onClick={() => navigate('/route-aura-booking-admin-page/dashboard/reviews')}
+              onClick={() => navigate('/safiri-kenya-booking-page/dashboard/reviews')}
             >
               <MessageSquare className={`h-4 w-4 ${!sidebarCollapsed && 'mr-3'} group-hover:scale-110 transition-transform duration-200`} />
               {!sidebarCollapsed && <span className="font-medium">Reviews</span>}
@@ -347,7 +347,7 @@ const AdminDashboard = () => {
             <Button
               variant="ghost"
               className={`w-full ${sidebarCollapsed ? 'justify-center px-0' : 'justify-start'} hover:bg-gradient-to-r hover:from-yellow-50 hover:to-orange-50 dark:hover:from-yellow-900/20 dark:hover:to-orange-900/20 hover:text-yellow-700 dark:hover:text-yellow-300 transition-all duration-300 group`}
-              onClick={() => navigate('/route-aura-booking-admin-page/dashboard/inbox')}
+              onClick={() => navigate('/safiri-kenya-booking-page/dashboard/inbox')}
             >
               <Mail className={`h-4 w-4 ${!sidebarCollapsed && 'mr-3'} group-hover:scale-110 transition-transform duration-200`} />
               {!sidebarCollapsed && <span className="font-medium">Inbox</span>}
@@ -355,7 +355,7 @@ const AdminDashboard = () => {
             <Button
               variant="ghost"
               className={`w-full ${sidebarCollapsed ? 'justify-center px-0' : 'justify-start'} hover:bg-gradient-to-r hover:from-indigo-50 hover:to-purple-50 dark:hover:from-indigo-900/20 dark:hover:to-purple-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-all duration-300 group`}
-              onClick={() => navigate('/route-aura-booking-admin-page/dashboard/offices')}
+              onClick={() => navigate('/safiri-kenya-booking-page/dashboard/offices')}
             >
               <Building className={`h-4 w-4 ${!sidebarCollapsed && 'mr-3'} group-hover:scale-110 transition-transform duration-200`} />
               {!sidebarCollapsed && <span className="font-medium">Offices</span>}
@@ -363,7 +363,7 @@ const AdminDashboard = () => {
             <Button
               variant="ghost"
               className={`w-full ${sidebarCollapsed ? 'justify-center px-0' : 'justify-start'} hover:bg-gradient-to-r hover:from-blue-50 hover:to-indigo-50 hover:text-blue-700 transition-all duration-300 group`}
-              onClick={() => navigate('/route-aura-booking-admin-page/dashboard/faqs')}
+              onClick={() => navigate('/safiri-kenya-booking-page/dashboard/faqs')}
             >
               <HelpCircle className={`h-4 w-4 ${!sidebarCollapsed && 'mr-3'} group-hover:scale-110 transition-transform duration-200`} />
               {!sidebarCollapsed && <span className="font-medium">FAQs</span>}

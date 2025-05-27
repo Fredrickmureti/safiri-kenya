@@ -35,7 +35,7 @@ const AdminLoginPage = () => {
   // If already logged in, redirect to admin dashboard
   React.useEffect(() => {
     if (adminUser) {
-      navigate('/route-aura-booking-admin-page/dashboard');
+      navigate('/safiri-kenya-booking-admin-page/dashboard');
     }
   }, [adminUser, navigate]);
 
@@ -50,7 +50,7 @@ const AdminLoginPage = () => {
       
       if (success) {
         toast.success('Login successful, redirecting...');
-        navigate('/route-aura-booking-admin-page/dashboard');
+        navigate('/safiri-kenya-booking-admin-page/dashboard');
       } else {
         // Error is already handled in the loginAdmin function
         console.log('Login failed');
