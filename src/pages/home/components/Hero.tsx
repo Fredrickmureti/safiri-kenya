@@ -48,7 +48,7 @@ const Hero: React.FC = () => {
           </h1>
           <p className="text-xl md:text-2xl text-white/90 mb-8 max-w-3xl mx-auto animate-fade-in">
             Experience comfortable, reliable, and affordable bus travel across Kenya. 
-            Book your next adventure with Route Aura.
+            Book your next adventure with Safiri Kenya.
           </p>
         </div>
 
